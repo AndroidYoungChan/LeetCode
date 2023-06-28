@@ -9,9 +9,9 @@ class Solution(object):
         curr = head
     
         while curr:
-            next = curr.next
+            next1 = curr.next
             curr.next = prev
             prev = curr
-            curr = next
+            curr = next1
         return prev    
         
